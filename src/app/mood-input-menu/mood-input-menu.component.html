@@ -1,3 +1,16 @@
 <p>
-  mood-input-menu works!
+  <!-- mood-input-menu works! -->
+  <ion-range
+    min="0"
+    max="100"
+    dualKnobs="false"
+    pin="true"
+    snaps="true"
+    step="1"
+    ticks="true"
+    value="50`"
+    color="primary"
+    (ionChange)="rangeChange($event)"
+  >
+  </ion-range>
 </p>
